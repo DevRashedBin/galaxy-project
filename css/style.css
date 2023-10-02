@@ -257,3 +257,143 @@ footer{
     color: white;
     margin-left: 40px;
 }
+
+@media screen and (max-width: 600px) {
+    header{
+        width: 85%;
+        height: 70px;
+    }
+
+    header .logo img{
+        width: 110px;
+    }
+
+    header .nav_button a{
+        font-size: 10pt;
+        font-weight: 500;
+    }
+    /* Banner Style */
+  
+   
+    .banner_content h1{
+        font-size: 15pt;
+        margin-bottom: 10px;
+    }
+    .banner_content p{
+        width: 80%;
+        margin: auto;
+        font-size: 10pt;
+        margin-bottom: 20px;
+    }
+    .banner_content button{
+        font-size: 10pt;
+        padding: 8px 20px;
+    }
+    
+    .banner_content i{
+        font-size: 6pt;
+    }
+    
+    /* Banner Style */
+    
+    .path_section{
+        width: 75%;
+        display: block;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .path{
+        width: 70%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    .path img{
+        width: 50px;
+        margin-bottom: 10px;
+    }
+    .path h2{
+        font-size: 13pt;
+    }
+    
+    .path p{
+        font-size: 10pt;
+        margin-top: 10px;
+    }
+    
+    
+    
+    .text{
+        width: 75%;
+    }
+    
+    .text h2{
+        font-size: 18pt;
+    }
+    
+    
+    
+    
+    .post{
+        width: 75%;
+        display: block;
+    }
+    
+    .single_post{
+        width: 100%;
+    }
+
+    .single_post h2{
+        font-size: 13pt;
+        margin-top: 25px;
+    }
+    
+    .single_post p{
+        font-size: 10pt;
+        margin-bottom: 30px;
+    }
+    
+    .blog_title h1{
+        font-size: 18pt;
+    }
+    
+    .blog_eliments{
+        width: 75%;
+        display: block;
+    }
+    
+    .blog{
+        width: 100%;
+        text-align: center;
+    }
+    .blog h2{
+        font-size: 13pt;
+    }
+    
+    .blog p{
+        font-size: 10pt;
+    }
+    
+    
+    
+    footer{
+        padding: 40px 0;
+    }
+    
+    .footer_eliments{
+        width: 75%;
+    }
+    .footer_logo{
+    
+    }
+    
+    .footer_logo img{
+        width: 130px;
+    }
+    
+    .social a{
+        margin-left: 30px;
+        font-size: 10pt;
+    }
+    
+}
